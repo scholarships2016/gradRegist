@@ -40,7 +40,7 @@ class ProfileController extends Controller
         $customer3 =
         ['name' => 'Narak', 'surname'=> 'Naka'];
 
-      return view('profile', ['customers'=>[$customer1,$customer2]]);
+      return view('profile', ['customers'=>[$customer1,$customer2,$customer3]]);
     }
 
 }
