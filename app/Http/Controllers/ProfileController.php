@@ -39,8 +39,10 @@ class ProfileController extends Controller
         ['name' => 'Thanathip', 'surname'=> 'Boonmanan'];
         $customer3 =
         ['name' => 'Narak', 'surname'=> 'Naka'];
+        $customer4 =
+        ['name' => 'Narak2', 'surname'=> 'Naka2'];
 
-      return view('profile', ['customers'=>[$customer1,$customer2,$customer3]]);
+      return view('profile', ['customers'=>[$customer1,$customer2,$customer3,$customer4]]);
     }
 
 }
