@@ -6,7 +6,7 @@
  * @package  Laravel
  * @author   Taylor Otwell <taylor@laravel.com>
  */
-
+//chok
 /*
 |--------------------------------------------------------------------------
 | Register The Auto Loader
